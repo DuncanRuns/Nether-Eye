@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.duncanruns.nethereye.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChunkGeneratorMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nethereye",
+  "version": "${version}",
+  "name": "Nether Eye",
+  "description": "Eyes. Nether. YEP.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nethereye/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.nethereye.NetherEye"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nethereye.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}
